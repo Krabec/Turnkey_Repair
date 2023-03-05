@@ -1,0 +1,31 @@
+.li_fantasies>a, .header-navigation_item>a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.li_fantasies>a:hover, .header-navigation_item>a:hover {
+    color: #E3B873;
+}
+
+.li_fantasies>a:hover {
+    border-bottom: 1px solid #E3B873;
+}
+
+.li_fantasies>a:active, .header-navigation_item>a:active {
+    color: #E3B873;
+}
+
+.li_fantasies>a:active {
+    border-bottom: 1px solid #E3B873;   
+}
+
+.ul_row a {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.3);
+}
