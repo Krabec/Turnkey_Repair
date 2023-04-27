@@ -1,0 +1,319 @@
+
+
+/* Позиционирование формы input */
+.form {
+    background-color: #181818;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+/* Выравнивание по центру первой формы */
+.one {
+    align-self: flex-end;
+    width: 506px;
+    margin-bottom: 38px;
+}
+/* Позиционирование заголовка формы 1 */
+.legend {
+    margin: 0 auto;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+    width: 297px;
+
+}
+
+
+/* Центрующий контейнер формы */
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1301px) {
+    .container_form {
+        width: 408px;
+    }
+}
+/* Стилизация заголовка формы ввода */
+.header_form1 {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+/* Стилизация одной формы ввода */
+.input_block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+/* Стилизация подписи формы ввода */
+.label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Стилизация поля ввода */
+.input {
+    background-color: #181818;
+    border: none;
+    border-bottom: 1px solid #FFFFFF26;
+    margin-top: 7px;
+    height: 26px;
+
+}
+
+/* Текст внутри input */
+.input::placeholder {
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+/* Чекбокс */
+
+.first-checkbox {
+    margin-top: -32px;
+}
+
+.label_checkbox {
+    cursor: pointer;
+  }
+
+  .checkbox{
+    display: none;
+}
+
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  
+}
+  
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+    margin-top: -2px;
+}
+  
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+.text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+
+    color: #FFFFFF;
+}
+
+/* Кнопка */
+
+.container_button {
+    margin-top: 39px;
+    margin-bottom: 27px;
+    align-self: flex-end;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+
+    font-family: 'Nunito Sans Italic', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+.off {
+    
+    background: none;
+    box-shadow: none;
+    border: 1px solid white;
+
+}
+.off:nth-child(2n) {
+    margin-left: 20px;
+}
+
+.off:active {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+}
+
+.off:hover {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: none;
+}
+
+.button_img {
+    background: none;
+    border: none;
+}
+button:active {
+    transform: translateY(2px);
+    filter: saturate(150%);
+}
+
+.arrow_img_next, .arrow_img_prev  {
+    width: 42px;
+}
+
+.arrow_left, .arrow_righ {
+    margin-left: -5px;
+}
+
+.button_pig {
+    margin-top: 15px;
+}
+
+/* Вторая форма */
+/* Выравнивание по центру второй формы */
+.two {
+    margin-top: -222px;
+    align-self: center;
+    width: 800px;
+}
+
+/* Стили заголовка формы 1 */
+.header_form2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+
+}
+
+.form_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_row {
+    margin-right: 58px;
+    width: 520px;
+}
+
+.input_row:nth-child(2) {
+    margin-right: 0;
+
+}
+
+@media screen and (min-width: 1301px) {
+    .fons_white {
+        width: 769px;
+        height: 51px;
+    }
+}
+
+
+
+
+.checkbox_two {
+    margin-top: -2px;
+    align-self: center;
+}
+
+.button_form_two {
+    margin-top: 50px;
+    margin-bottom: 37px;
+    align-self: center;
+}
+
+
+.form_white {
+    margin-top: 93px;
+    margin-bottom: 25px; /* убрать */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.input_white {
+    justify-content: space-between;
+}
+
+.label_white {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.input_white_text {
+    background-color: white;
+    border-bottom: 1px solid #0a0a0a26;
+    width: 231px;
+
+}
+
+/* Текст внутри input */
+.input_white_text::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    
+    color: #363636; 
+}
+
+.button_white {
+    height: 51px;
+    width: 200px;
+}
+
+.text_fons_white {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+
+    color: #181818;
+}

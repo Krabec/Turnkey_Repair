@@ -1,0 +1,329 @@
+@media screen and (max-width: 1300px) {
+      h1 {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 132.83%;
+      }
+      .pharagraph {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 135.84%;
+      }
+      nav {
+        display: none;
+      }
+      .button_header {
+        display: none;
+      }
+      .tel {
+        color: white;
+        text-decoration:none;
+      }
+      .container {
+        margin-right: 18px;
+        margin-left: 18px;
+      }
+      .hero {
+        padding-top: 85px;
+        padding-bottom: 61px;
+      }
+      .hero-container {
+        margin-left: 0px;
+        max-width: 1300px;
+      }
+      .off {
+        display: block;
+        width: 100%;
+        margin-top: 32px;
+      }
+      .off:nth-child(2n) {
+        margin-left: 0px;
+        margin-top: 26px;
+    }
+    .black_section-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .completed_projects {
+      margin-left: 0px;
+      align-items: center;
+      margin-top: 36px;
+      max-width: 1300px;
+    }
+    .parametrs, .arrow, .ul_row {
+      display: none;
+    }
+    .button_hottel {
+      display: flex;
+      padding-left: 14px;
+      padding-right: 14px;
+      z-index: 1;
+    }
+    .images_scroll {
+      margin-top: 36px;
+      align-items: center;
+      margin-left: 0;
+    }
+    .hottel {
+      width: 340px;
+      margin-top: -135px;
+      
+    }
+    .parametrs2 {
+      display: flex;
+    }
+    .hottel_parametrs {
+      max-width: 181px;
+      text-align: start;
+    }
+    .title {
+      font-family: 'Yeseva One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 138.6%;
+      /* identical to box height, or 19px */
+
+      text-transform: uppercase;
+
+      color: #E3B873;
+    }
+    .pharagraph3 {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 135.84%;
+      /* or 15px */
+
+
+      color: #FFFFFF;
+    }
+    .hottel_parametrs:nth-child(2n+1){
+      max-width: 120px;
+    }
+    .hottel_parametrs:nth-child(2n){
+      margin-right: 0;
+    }
+    .online_control {
+      margin-top: 75px;
+    }
+    .video {
+      height: 207px;
+      width: 340px;
+    }
+    .play {
+      margin-top: -150px;
+      z-index: 1;
+    }
+    .line_in_width {
+      margin-top: 110px;
+      z-index: 1;
+    }
+    .nones {
+      display: none;
+    }
+    .black_black {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .white_pharagraph {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 169.8%;
+      /* or 19px */
+
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+    .form_row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form_white {
+      width: 100%;
+      margin-top: 61px;
+      margin-bottom: -25px;
+      padding-top: 0;
+    }
+    .input_block {
+      width: 100%;
+    }
+    .input_white_text {
+      width: 100%;
+      background-color: black;
+      border-bottom: 1px solid white;
+    }
+
+    .input_white_text::placeholder {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 138.72%;
+      /* or 19px */
+
+
+      color: #FFFFFF;
+    }
+    .label_white {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .text_fons_white {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 163.68%;
+      /* or 23px */
+
+
+      color: #FFFFFF;
+    }
+    .checkbox_two {
+      margin-top: -22px;
+    }
+    .shift {
+      margin-top: 200px;
+    }
+    .button_white_bla {
+      z-index: 1;
+      margin-top: 62px;
+    }
+    .types_of_repair {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 40px;
+      align-items: center;
+  }
+    .repair {
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 59px;
+    }
+    .image_repair {
+      width: 100%;
+    }
+    .advantages_and_application {
+      display: none;
+    }
+    .fantasies>.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .fantasies {
+      background-image: none;
+      margin-top: -4px;
+    }
+    .container_fantasies_1>h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .container_fantasies_1 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ul_fantasies {
+      display: none;
+    }
+
+    .container_fantasies_2 {
+      margin-top: 24px;
+    }
+
+    .container_fantasies_2>.painting, .container_fantasies_3 {
+      display: none;
+    }
+
+    .container_fantasies_2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .clock {
+      width: 340px;
+      height: 242px;
+      background-image: url(../images/clock_media.jpg);
+      margin-top: -160px;
+      z-index: 1;
+    }
+    .button_images {
+      margin-top: 127px;
+      z-index: 2;
+    }
+    .clients, .sity {
+      display: none;
+    }
+    .questions {
+      margin-top: -170px;
+      background-color: #181818;
+      background-image: none;
+      padding-bottom: 48px;
+    }
+    .two {
+      margin-top: 173px;
+      align-self: center;
+      width: 100%;
+    }
+    .form {
+      padding-top: 0;
+    }
+    .legend {
+      margin-top: 0;
+    }
+    .input_row {
+      margin-right: 0;
+    
+    }
+    .button_form_two {
+      width: 100%;
+    }
+    .button_ende {
+      width: 100%;
+    }
+    .button_form_two {
+      margin-top: 67px;
+      margin-bottom: 0;
+    }
+    .adress {
+      margin-top: 0px;
+    }
+    .adress>h2 {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 138.6%;
+    }
+    .navigation_end {
+      width: 340px;
+      height: 255px;
+      margin-top: 46px;
+      order: -1;
+    }
+    footer {
+      display: none;
+    }
+  
+  }
